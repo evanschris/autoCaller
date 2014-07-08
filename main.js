@@ -41,15 +41,15 @@ function changeCaller() {
 
 function changeCaller() {
 	if (checkMobile() == true) {
-		$('.autoCaller').attr("href", "tel:+447955568643");
+		$('.autoCaller').attr("href", "tel:+441234567891");
 		$('.deviceSpan').html('mobile browser');
 	} else {
 		var os = navigator.platform;
 		if (os == 'MacIntel') {
-			$('.autoCaller').attr("href", "facetime:+447955568643");
+			$('.autoCaller').attr("href", "facetime:+441234567891");
 			$('.deviceSpan').html('Mac');
 		} else {
-			$('.autoCaller').attr("href", "skype:hello@evanschris.com");
+			$('.autoCaller').attr("href", "skype:echo123");
 			$('.deviceSpan').html('Windows (or other OS, other than Mac)');
 		}
 	}
