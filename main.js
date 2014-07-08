@@ -25,12 +25,12 @@ function changeCaller() {
 	
 	if (checkMobile() == true) {
 		// CHANGE THE NUMBER TO A PHONE NUMBER
-		$('.autoCaller').attr("href", "tel:+441234567891");
+		$('.autoCaller').attr("href", "tel:112");
 	} else {
 		var os = navigator.platform;
 		if (os == 'MacIntel') {
 			// CHANGE THE EMAIL ADDRESS TO EITHER A PHONE NUMBER OR EMAIL ADDRESS CONNECTED TO ICLOUD
-			$('.autoCaller').attr("href", "facetime:johnnyappleseed@me.com");
+			$('.autoCaller').attr("href", "facetime:djdruk@live.ru");
 		} else {
 			// CHANGE THE USERNAME TO EITHER A PHONE NUMBER,  EMAIL ADDRESS OR SKYPE USERNAME
 			$('.autoCaller').attr("href", "skype:echo123");
@@ -46,10 +46,10 @@ function changeCaller() {
 	} else {
 		var os = navigator.platform;
 		if (os == 'MacIntel') {
-			$('.autoCaller').attr("href", "facetime:+447955568643");
+			$('.autoCaller').attr("href", "facetime:+380665333076");
 			$('.deviceSpan').html('Mac');
 		} else {
-			$('.autoCaller').attr("href", "skype:hello@evanschris.com");
+			$('.autoCaller').attr("href", "skype:djdruk@live.ru");
 			$('.deviceSpan').html('Windows (or other OS, other than Mac)');
 		}
 	}
